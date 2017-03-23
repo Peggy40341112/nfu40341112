@@ -16,7 +16,6 @@ def make_chart_simple_line_chart(plt):
     plt.ylabel("Billions of $")
     plt.show()
 
-
 def make_chart_simple_bar_chart(plt):
 
     movies = ["Annie Hall", "Ben-Hur", "Casablanca", "Gandhi", "West Side Story"]
