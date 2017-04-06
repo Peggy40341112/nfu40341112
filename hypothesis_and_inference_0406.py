@@ -52,5 +52,6 @@ if __name__ == "__main__":
     print("mu_0", mu_0)
     print("sigma_0", sigma_0)
     print("normal_two_sided_bounds("+str(p)+", mu_0, sigma_0)", normal_two_sided_bounds(p, mu_0, sigma_0))
+
     print
 
