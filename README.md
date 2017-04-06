@@ -537,8 +537,7 @@ print table
         # it's above the threshold if it's not below the threshold
         def normal_probability_above(lo, mu=0, sigma=1):
             return 1 - normal_cdf(lo, mu, sigma)
-    
-    
+        
         def two_sided_p_value(x, mu=0, sigma=1):
             if x >= mu:
                 # if x is greater than the mean, the tail is above x
