@@ -74,10 +74,10 @@ for i in price_list:
 
 x = np.array([0,1,2,3,4,5,6,7,8,9,10])
 plt.xticks(x, price_level)
-plt.plot(x,price_count,color='purple', marker='o',linestyle='-.')
-plt.ylabel("price of data")
-plt.xlabel("price level")
-plt.title("Price distribution")
+plt.plot(x,price_count,color='purple',mec='blue', marker='*',linestyle='-')
+plt.ylabel("Snack price data")
+plt.xlabel("Snack price range")
+plt.title("Snack price chart")
 plt.show()
 
 
